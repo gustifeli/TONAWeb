@@ -1,0 +1,60 @@
+﻿@{
+    
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_LayoutTonaWhite.cshtml";
+}
+<section>
+    <div class="button4">
+        <a href="TONA.html"><span id="button4" class="glyphicon glyphicon-chevron-left"></span></a>
+    </div>
+    <div id="fondo">
+        <div id="form">
+            <form method="post" name="form1" id="form1" action="#">
+                <div id="form-col1">
+                    <br />
+                    <label>
+                        <span class="txt-label">* Nombre: <input type="text" name="nombre" id="nombre" value /></span>
+                    </label><br /><label>
+                        <span class="tex-label">* Apellido: <input type="text" name="apellido" id="apellido" value /></span>
+                    </label>
+                    <br />
+                    <label>
+                        <span class="tex-label">
+                            * E-mail:
+                            <input type="text" name="email" id="email" value />
+                        </span>
+                    </label>
+                    <br />
+                    <label>
+                        * Telefono:
+                        <input type="text" name="telefono" id="telefono" value />
+                    </label>
+                    <br />
+                    <label>
+                        * Localidad:
+                        <input type="text" name="localidad" id="localidad" value />
+                    </label>
+                    <br />
+                    <p>* Datos obligatorios</p>
+                </div>
+                <div id="form-col2">
+                    <br />
+                    <label>
+                        <span class="tex-label">
+                            Mensaje:
+                            <textarea class="form-control" name="comentario" rows="7" cols="60" id="comentario"></textarea>
+                        </span>
+                    </label>
+                    <div id="clear">
+                        <input name="sumbit" type="button" class="button boton" id="sumbit_contacto" value="ENVIAR" />
+                        <p class="ocultar">
+                            Para comunicarte, completá el formulario, o envianos un mail a la siguiente dirección:
+                            <a href="mailto:tonaoficial@hotmail.com" class="linea">tonaoficial@hotmail.com</a>
+                        </p>
+                        <div id="clear"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
