@@ -47,10 +47,10 @@ html {
 	margin: 0%;
 	padding: 0%;
 }
-.carousel-indicators{
-	top: 85%;
+.carousel-indicators {
+    position: absolute;
+    top: 85% auto;
 }
-
 #btn { /* Padding btn producto y contacto*/
     padding-left: 10px;
 }
