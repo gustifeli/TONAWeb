@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/Content/bootstrap.min.css">
     <link type="text/css" href="~/Content/bootstrap.css" rel="stylesheet">
     <title>@ViewBag.Title TONA</title>
+    @Styles.Render("~/Content/styleContacto.css")
     @Styles.Render("~/Content/style.css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -37,7 +38,7 @@
         @RenderBody()
         <footer class="footer">
             <div>
-                <nav id="nav" class=" navbar-inverse">
+                <nav id="nav" class=" navbar-inverse navbar-fixed-bottom">
                     <div id="txtfooter">
                         <p class="text-center credit">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>
                         <div class="text-center img">
