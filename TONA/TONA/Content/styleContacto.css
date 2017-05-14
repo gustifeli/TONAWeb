@@ -112,6 +112,12 @@ input[type=text] {
         background-color: #000;
         color: white;
     }
-.ocultar{
+
+.container{
+    height: 100%;
     margin-bottom: 100px;
+}
+
+body{
+    overflow-y: auto;
 }
