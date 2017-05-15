@@ -53,14 +53,16 @@ html {
     border-bottom: 2px solid;
     border-bottom-color: black;
 }
-#lookbook:hover{
+#prox:hover{
     opacity: 0.6;
 }
-#button4{ /* Style boton back*/
-    color: #000;
-    float: left;
-    font-size: 2em;
-    margin: 0%;
+#prox{
+    max-width: 100%;
+    margin-top: 50px;
+    height: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+
 }
 
     
