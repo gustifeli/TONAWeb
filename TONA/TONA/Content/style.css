@@ -61,3 +61,6 @@ html {
 .carousel-indicators {
     top: 85%;
 }
+body{
+    background-color: black;
+}
