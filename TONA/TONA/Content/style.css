@@ -105,7 +105,7 @@ a.dropdown-toggle{
 }
 a.dropdown-toggle {
     width: 80px;
-    
+    float: right;
 }
 li.dropdown.opne{
     background-color: transparent;
