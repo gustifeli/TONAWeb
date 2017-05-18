@@ -107,7 +107,11 @@ a.dropdown-toggle {
     width: 80px;
     float: right;
 }
-li.dropdown.opne{
-    background-color: transparent;
+li {
+    width: 80px;
+    margin-right: 0;
+    text-align: left;
 }
-    
+ul.dropdown-menu {
+    background-color: white;
+}
