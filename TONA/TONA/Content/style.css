@@ -71,3 +71,15 @@ body{
     right: 9px;
     padding: 9px;
 }
+a:hover{
+    text-decoration: none;
+    
+}
+a{
+    color: white;
+}
+#aMenu {
+
+    padding-top: 15px;
+    padding-left: 15px;
+}
