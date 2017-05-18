@@ -64,23 +64,50 @@ html {
 body{
     background-color: black;
 }
-@media only screen and (min-width: 330px) {
+@media only screen and (min-width: 270px) {
     .collapse {
         display: block;
     }
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-nav.navbar-left {
+        float: left;
+        margin: 0;
+    }
+
     .navbar-nav.navbar-right {
-       float: right;
-    
+        float: right;
+        margin: 0;
+    }
+
+    .navbar-nav > li {
+        float: left;
     }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 270px) {
      .collapse {
-        display: block;
+        display: none;
      }
-
      .navbar-header {
         display: block;
      }
+a.dropdown-toggle{
+    background-color: black;
+}
+}
+a.dropdown-toggle {
+    width: 80px;
+    
+}
+li.dropdown.opne{
+    background-color: transparent;
 }
     
