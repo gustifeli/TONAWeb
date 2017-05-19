@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-color: withe;
+    background-color: white;
 }
 
 body{
@@ -120,4 +120,23 @@ input[type=text] {
 
 body{
     overflow-y: auto;
+}
+
+#btnMenu {
+    position: absolute;
+    right: 9px;
+    padding: 9px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+#aMenu {
+    padding-top: 15px;
+    padding-left: 15px;
 }
