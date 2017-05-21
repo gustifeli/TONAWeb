@@ -27,17 +27,13 @@
     font-size: 3em;
 }
 
-/*#btn { /* Padding btn producto y contacto
-    padding-left: 10px;
-}*/
-
 .txtbtn { /*Style botones producto y contacto*/
     color: #FFF;
     font-size: 16px;
     font-family: Ebrima,sans-serif;
 }
 
-html {
+#htmlLayoutTona {
     position: absolute;
     min-height: 95%;
     background-color: black;
@@ -52,9 +48,6 @@ html {
 .carousel-indicators {
     top: 85%;
 }
-/*body{
-    background-color: black;
-}*/
 
 #btnMenu{
     position: absolute;
@@ -62,8 +55,7 @@ html {
     padding: 9px;
 }
 a:hover{
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 a{
     color: white;
