@@ -39,6 +39,10 @@
     background-color: black;
 }
 
+#htmlLayoutTonaWhite{
+    height: 100%; background-color: white;
+}
+
 #jmb {
     margin: 0%;
     padding: 0%;
