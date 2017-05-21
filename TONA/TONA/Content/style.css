@@ -61,7 +61,7 @@
 a:hover{
     text-decoration: none;   
 }
-a{
+.aTxtColor{
     color: white;
 }
 #aMenu {
