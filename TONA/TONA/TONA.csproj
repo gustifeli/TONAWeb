@@ -177,6 +177,7 @@
     <Content Include="Image\lookbook_logo.png" />
     <Content Include="Image\maniqui.png" />
     <Content Include="Image\nature.jpg" />
+    <Content Include="Image\prox.jpg" />
     <Content Include="Image\telas.png" />
     <Content Include="Image\tona.jpg" />
     <Content Include="Image\tona1.jpg" />

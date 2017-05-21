@@ -4,45 +4,42 @@
     Layout = "~/Views/Shared/_LayoutTonaWhite.cshtml";
 }
 <section>
-    <div class="button4">
-        <a href="TONA.html"><span id="button4" class="glyphicon glyphicon-chevron-left"></span></a>
-    </div>
-    <div id="fondo">
-        <div id="form">
-            <form method="post" name="form1" id="form1" action="#">
-                <div id="form-col1">
+    <!--
+        <div class="container">
+            <form method="post" name="form1" id="form1" action="mailto:tonaoficial@hotmail.com">
+                <div class="form-group">
                     <br />
                     <label>
-                        <span class="txt-label">* Nombre: <input type="text" name="nombre" id="nombre" value /></span>
+                        <span class="txt-label">* Nombre: <input type="text" name="nombre" id="nombre" class="form-control"/></span>
                     </label><br /><label>
-                        <span class="tex-label">* Apellido: <input type="text" name="apellido" id="apellido" value /></span>
+                        <span class="tex-label">* Apellido: <input type="text" name="apellido" id="apellido" class="form-control"/></span>
                     </label>
                     <br />
                     <label>
                         <span class="tex-label">
                             * E-mail:
-                            <input type="text" name="email" id="email" value />
+                            <input type="text" name="email" id="email" class="form-control"/>
                         </span>
                     </label>
                     <br />
                     <label>
                         * Telefono:
-                        <input type="text" name="telefono" id="telefono" value />
+                        <input type="text" name="telefono" id="telefono" class="form-control"/>
                     </label>
                     <br />
                     <label>
                         * Localidad:
-                        <input type="text" name="localidad" id="localidad" value />
+                        <input type="text" name="localidad" id="localidad" class="form-control"/>
                     </label>
                     <br />
                     <p>* Datos obligatorios</p>
                 </div>
-                <div id="form-col2">
+                <div class="form-group">
                     <br />
                     <label>
-                        <span class="tex-label">
+                        <span class="form-group">
                             Mensaje:
-                            <textarea class="form-control" name="comentario" rows="7" cols="60" id="comentario"></textarea>
+                            <textarea class="form-control" name="comentario" rows="7" cols="40" id="comentario"></textarea>
                         </span>
                     </label>
                     <div id="clear">
@@ -56,5 +53,9 @@
                 </div>
             </form>
         </div>
-    </div>
+        -->
+    <p id="msjContacto">
+        Por el momento,para comunicarte,envianos un mail a la siguiente dirección:
+        <a href="mailto:tonaoficial@hotmail.com" class="linea">tonaoficial@hotmail.com</a>
+    </p>
 </section>

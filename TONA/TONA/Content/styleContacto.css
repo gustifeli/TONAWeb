@@ -1,8 +1,11 @@
 html {
     height: 100%;
-    background-color: withe;
+    background-color: white;
 }
 
+body{
+    height: 100%;
+}
 #txtfooter { /*Texto footer sta...*/
     color: white;
 }
@@ -46,55 +49,35 @@ html {
     font-family: Ebrima,sans-serif;
 }
 
-#button4 { /* Style boton back*/
-    color: #000;
-    float: left;
-    font-size: 2em;
-    margin: 0%;
-}
-
-.footer {
+/*.footer {
     position: fixed;
     bottom: 0%;
     width: 100%;
-}
-
-#fondo-contacto {
-    width: 80%;
-    z-index: 10;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-    padding-right: 5%;
-    left: 0;
-    right: 0;
-}
+}*/
 
 #form-col1 {
+   text-align:left;
+    width: 60%;
+    margin-left: 5%;
     float: left;
-    width: 80% auto;
-    margin-right: 3%;
-    text-align: right;
-    margin-left: 18%;
 }
 
 #form-col2 {
     float: left;
-    width: 48%;
+    width: 40%;
     text-align: left;
-    margin-left: auto;
+    margin-left: 5%;
     margin-right: auto;
 }
 
 textarea {
-    width: 98%;
+    width: 80%;
     margin-bottom: 20px;
     float: left;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 #clear {
     margin-left: auto;
@@ -125,7 +108,41 @@ input[type=text] {
     border-radius: 3px;
 }
 
-    .boton:hover {
+.boton:hover {
         background-color: #000;
         color: white;
     }
+
+.container{
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+body{
+    overflow-y: auto;
+}
+
+#btnMenu {
+    position: absolute;
+    right: 9px;
+    padding: 9px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+#aMenu {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+#msjContacto {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
