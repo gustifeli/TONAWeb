@@ -157,6 +157,7 @@
     <Content Include="Content\styleAddProducto.css" />
     <Content Include="Content\styleAdmin.css" />
     <Content Include="Content\styleContacto.css" />
+    <Content Include="Content\StyleContacto1.css" />
     <Content Include="Content\stylegalery.css" />
     <Content Include="Content\stylelogin.css" />
     <Content Include="favicon.ico" />
