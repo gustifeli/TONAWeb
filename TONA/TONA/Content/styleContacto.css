@@ -1,69 +1,5 @@
-html {
-    height: 100%;
-    background-color: white;
-}
-
-body{
-    height: 100%;
-}
-#txtfooter { /*Texto footer sta...*/
-    color: white;
-}
-
-.navbar {
-    padding: 10px;
-}
-
-#nav { /* navbar superior*/
-    margin: 0%;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-#navInf {
-    padding: 10px;
-}
-
-#img { /*img maniqui TONA*/
-    width: 14px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    left: 144px;
-    top: 23px;
-}
-
-#TONA { /* style titulo TONA*/
-    color: #FFF;
-    font-family: Ebrima,sans-serif;
-    font-size: 3em;
-}
-
-#btn { /* Padding btn producto y contacto*/
-    padding-left: 10px;
-}
-
-#txtbtn { /*Style botones producto y contacto*/
-    color: #FFF;
-    font-size: 18px;
-    font-family: Ebrima,sans-serif;
-}
-
-/*.footer {
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-}*/
-
-#form-col1 {
-   text-align:left;
-    width: 60%;
-    margin-left: 5%;
-    float: left;
-}
-
 #form-col2 {
-    float: left;
+    float: right;
     width: 40%;
     text-align: left;
     margin-left: 5%;
@@ -78,7 +14,6 @@ textarea {
     margin-right: auto;
 }
 
-
 #clear {
     margin-left: auto;
     margin-right: auto;
@@ -86,19 +21,14 @@ textarea {
 }
 
 input[type=text]:focus {
-    border: 3px solid #555;
-}
+       border: 3px solid #555;
+  }
 
 input[type=text] {
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    border: 3px solid #ccc;
     outline: none;
-}
-
-.button {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 .boton { /*Style boton ENVIAR CONTACTO*/
@@ -108,41 +38,13 @@ input[type=text] {
     border-radius: 3px;
 }
 
-.boton:hover {
+.boton:hover { /*Style boton ENVIAR CONTACTO*/
         background-color: #000;
         color: white;
     }
 
-.container{
+.form-group {
     height: 100%;
-    margin-bottom: 100px;
-}
-
-body{
-    overflow-y: auto;
-}
-
-#btnMenu {
-    position: absolute;
-    right: 9px;
-    padding: 9px;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a {
-    color: white;
-}
-
-#aMenu {
-    padding-top: 15px;
-    padding-left: 15px;
-}
-#msjContacto {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 400px;
+    padding-left: 20%;
 }
