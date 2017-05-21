@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="~/Content/bootstrap.min.css">
     <link type="text/css" href="~/Content/bootstrap.css" rel="stylesheet">
     <title>@ViewBag.Title TONA</title>
-    @Styles.Render("~/Content/styleContacto.css")
-    @Styles.Render("~/Content/stylegalery.css")
+    @*@Styles.Render("~/Content/styleContacto.css")
+    @Styles.Render("~/Content/stylegalery.css")*@
+    @Styles.Render("~/Content/style.css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div id="nav" class="navbar navbar-inverse">
+    <div id="nav" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a id="btnMenu" class="navbar-collapse pull-right" data-toggle="collapse" href="#collapse1"><img src="~/Image/menu_Sandwich.png"></a>
@@ -27,7 +28,7 @@
                     @*<a id="btnMenu"  href="#collapse1"><img src="~/Image/menu_Sandwich.png"></a>*@
                 </div>
             </div>
-            <div id="collapse1" class="panel-collapse collapse">
+            <div id="collapse1" class="txtbtn panel-collapse collapse pull-right">
                 <div id="aMenu">
                     <a href="@Url.Action("Galeria", "Home")">Lookbook</a>
 
