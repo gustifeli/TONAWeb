@@ -1,6 +1,6 @@
 #form-col1 {
     float: left;
-    width: 40%;
+    width: 43%;
     margin-left: auto;
     margin-right: 5%;
     text-align: left;
@@ -30,7 +30,7 @@ textarea {
     color: black;
     border: 2px solid #000;
     border-radius: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .boton:hover { /*Style boton ENVIAR CONTACTO*/
@@ -46,4 +46,8 @@ textarea {
 
 #contacto:hover {
     opacity: 0.6;  
+}
+
+.container {
+    margin-bottom: 100px;
 }
