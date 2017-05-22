@@ -5,10 +5,12 @@
     margin-right: 5%;
     text-align: left;
 }
+
 #form-col2 {
     float: left;
     width: 50%;
 }
+
 textarea {
     width: 80%;
     margin-bottom: 20px;
@@ -35,11 +37,13 @@ textarea {
         background-color: #000;
         color: white;
 }
+
 #contacto {
     text-align: center;
     font-family: Ebrima,sans-serif;
     font-size: 3em;
 }
+
 #contacto:hover {
     opacity: 0.6;  
 }
