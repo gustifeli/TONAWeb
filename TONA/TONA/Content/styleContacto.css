@@ -43,3 +43,6 @@ textarea {
 #contacto:hover {
     opacity: 0.6;  
 }
+.container{
+    height: 485px;
+}
