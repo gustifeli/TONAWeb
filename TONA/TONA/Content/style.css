@@ -39,6 +39,10 @@
     background-color: black;
 }
 
+#htmlLayoutTonaWhite{
+    height: 100%; background-color: white;
+}
+
 #jmb {
     margin: 0%;
     padding: 0%;
@@ -57,7 +61,7 @@
 a:hover{
     text-decoration: none;   
 }
-a{
+.aTxtColor{
     color: white;
 }
 #aMenu {
