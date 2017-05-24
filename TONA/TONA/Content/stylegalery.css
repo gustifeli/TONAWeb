@@ -3,9 +3,8 @@
     font-family: 'Lucida Handwriting';
     color: black;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 0px;
+    max-width: 100%;
 }
 /*#prox:hover{
     opacity: 0.6;
@@ -19,8 +18,8 @@
 }*/
 .row {
     max-width: 100%;
-    margin-right: auto;
-    margin-left: 25%;
+    margin-right: 20%;
+    margin-left: 20%;
     height: auto;
     max-height: 100%;
 }

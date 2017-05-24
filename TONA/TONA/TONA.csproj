@@ -157,6 +157,7 @@
     <Content Include="Content\styleAddProducto.css" />
     <Content Include="Content\styleAdmin.css" />
     <Content Include="Content\styleContacto.css" />
+    <Content Include="Content\stylefotos.css" />
     <Content Include="Content\stylegalery.css" />
     <Content Include="Content\stylelogin.css" />
     <Content Include="favicon.ico" />
@@ -225,6 +226,7 @@
     <Content Include="Views\Admin\Admin.cshtml" />
     <Content Include="Views\Shared\_LayoutTonaWhite.cshtml" />
     <Content Include="Views\Home\Galeria.cshtml" />
+    <Content Include="Views\Home\GaleriaFotos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
