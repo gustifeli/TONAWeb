@@ -18,6 +18,7 @@ textarea {
     border: 2px solid #000;
     border-radius: 3px;
     margin-bottom: 10px;
+    outline: none;
 }
 
 .boton:hover { /*Style boton ENVIAR CONTACTO*/
