@@ -6,6 +6,7 @@
     margin: 0%;
     border-radius: 0px;
     padding: 10px;
+    background-color: black;
 }
 
 #img { /*img maniqui TONA*/
@@ -58,6 +59,10 @@ a:hover{
     text-decoration: none;   
 }
 .aTxtColor{
+    color: white;
+}
+
+.aTxtColor:hover {
     color: white;
 }
 #aMenu {

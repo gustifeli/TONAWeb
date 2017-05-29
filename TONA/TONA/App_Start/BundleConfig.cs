@@ -29,7 +29,8 @@ namespace TONA
                       "~/Content/stylegalery.css",
                       "~/Content/style.css",
                       "~/Content/styleinvierno.css",
-                      "~/Content/styleverano.css"));
+                      "~/Content/styleverano.css",
+                      "~/Content/styleContacto.css"));
         }
     }
 }
