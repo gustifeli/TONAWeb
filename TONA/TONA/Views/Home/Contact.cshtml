@@ -1,16 +1,28 @@
-﻿@{
+﻿
+@{
     ViewBag.Title = "Contact";
     Layout = "~/Views/Shared/_LayoutTonaWhite.cshtml";
+    
 }
+
+
 <section>
+    @if (ViewBag.Message == "sent")
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("El mensaje se envio con exito");
+            };
+        </script>
+    }
     <h1 id="contacto">Contacto</h1>
     <div class="container">
-         <form method="post" name="form1" id="form1" action="mailto:tonaoficial@hotmail.com">
+        <form method="post" action="@Url.Action("Contact","Home")">
             <div id="form-col1">
                 <div class="form-group">
                     <br />
                     <label>
-                        <span class="txt-label">* Nombre: <input type="text" name="nombre" id="nombre" class="form-control" autofocus/></span>
+                        <span class="txt-label">* Nombre: <input type="text" name="nombre" id="nombre" class="form-control" autofocus /></span>
                     </label><br /><label>
                         <span class="tex-label">* Apellido: <input type="text" name="apellido" id="apellido" class="form-control" /></span>
                     </label>
@@ -45,15 +57,15 @@
                         </span>
                     </label>
                     <div id="clear">
-                        <input name="sumbit" type="button" class="button boton" id="sumbit_contacto" value="ENVIAR" />
+                        <input name="sumbit" type="submit" onclick="send()" class="button boton" id="sumbit_contacto" value="ENVIAR" />
                         <p class="ocultar">
-                            Para comunicarte, completá el formulario, o envianos un mail a la siguiente dirección:
+                            Para comunicarte, @*completá*@ el formulario, o envianos un mail a la siguiente dirección:
                             <a href="mailto:tonaoficial@hotmail.com" class="linea">tonaoficial@hotmail.com</a>
                         </p>
-                        <div id="clear"></div>
                     </div>
                 </div>
             </div>
         </form>
-      </div>
+    </div>
 </section>
+
