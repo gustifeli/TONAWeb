@@ -27,7 +27,10 @@ namespace TONA
                       "~/Content/bootstrap.css",
                       "~/Content/bootstrap.min.css",
                       "~/Content/stylegalery.css",
-                      "~/Content/style.css"));
+                      "~/Content/style.css",
+                      "~/Content/styleinvierno.css",
+                      "~/Content/styleverano.css",
+                      "~/Content/styleContacto.css"));
         }
     }
 }
