@@ -27,6 +27,16 @@ namespace TONA.Controllers
         {
             return View();
         }
+        public ActionResult Galeriainvierno()
+        {
+            return View();
+        }
+
+        public ActionResult Galeriaverano()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ViewResult Contact(MailModel mailModel)
         {
