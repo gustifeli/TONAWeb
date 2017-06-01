@@ -146,6 +146,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\MailModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,9 +159,8 @@
     <Content Include="Content\styleAdmin.css" />
     <Content Include="Content\styleContacto.css" />
     <Content Include="Content\stylegalery.css" />
-    <Content Include="Content\styleinvierno.css" />
     <Content Include="Content\stylelogin.css" />
-    <Content Include="Content\styleverano.css" />
+    <Content Include="Content\styleSendMail.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -168,6 +168,7 @@
     <Content Include="Image\facebook.png" />
     <Content Include="Image\glyphicons-social-31-facebook.png" />
     <Content Include="Image\glyphicons-social-32-twitter.png" />
+    <Content Include="Image\lights.jpg" />
     <Content Include="Image\menu_Sandwich.png" />
     <Content Include="Image\ic_person_black_24dp_1x.png" />
     <Content Include="Image\ic_salir.png" />
@@ -175,9 +176,11 @@
     <Content Include="Image\ic_user.png" />
     <Content Include="Image\ic_user_min.png" />
     <Content Include="Image\Instagram.png" />
+    <Content Include="Image\lookbook_logo.png" />
     <Content Include="Image\maniqui.png" />
     <Content Include="Image\nature.jpg" />
     <Content Include="Image\prox.jpg" />
+    <Content Include="Image\telas.png" />
     <Content Include="Image\tona.jpg" />
     <Content Include="Image\tona1.jpg" />
     <Content Include="Image\tona2.jpg" />
@@ -192,7 +195,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
-    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -225,12 +227,10 @@
     <Content Include="Views\Admin\Admin.cshtml" />
     <Content Include="Views\Shared\_LayoutTonaWhite.cshtml" />
     <Content Include="Views\Home\Galeria.cshtml" />
-    <Content Include="Views\Home\Galeriainvierno.cshtml" />
-    <Content Include="Views\Home\Galeriaverano.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\SendMail\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
