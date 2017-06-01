@@ -27,6 +27,14 @@ namespace TONA.Controllers
         {
             return View();
         }
+        public ActionResult Galeriainvierno()
+        {
+            return View();
+        }
+        public ActionResult Galeriaverano()
+        {
+            return View();
+        }
         public ActionResult sendMail()
         {
             ViewBag.confirmacionMsj = true;

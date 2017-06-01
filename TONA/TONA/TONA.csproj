@@ -159,8 +159,10 @@
     <Content Include="Content\styleAdmin.css" />
     <Content Include="Content\styleContacto.css" />
     <Content Include="Content\stylegalery.css" />
+    <Content Include="Content\styleinvierno.css" />
     <Content Include="Content\stylelogin.css" />
     <Content Include="Content\styleSendMail.css" />
+    <Content Include="Content\styleverano.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -227,6 +229,8 @@
     <Content Include="Views\Admin\Admin.cshtml" />
     <Content Include="Views\Shared\_LayoutTonaWhite.cshtml" />
     <Content Include="Views\Home\Galeria.cshtml" />
+    <Content Include="Views\Home\Galeriainvierno.cshtml" />
+    <Content Include="Views\Home\Galeriaverano.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
