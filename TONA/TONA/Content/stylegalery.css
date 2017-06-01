@@ -1,73 +1,32 @@
-html {
-    height: 100%;
-  background-color: white;
-}
-
-#txtfooter{/*Texto footer sta...*/
-    color: white;      
-}
-.navbar{ 
-    padding: 10px;
-}
-#nav{/* navbar superior*/
-    margin: 0%;
-	border-radius: 0px;
-	padding: 10px;
-}
-#navInf{
-	padding: 10px;
-}
-#img { /*img maniqui TONA*/
-	width: 14px;
-	height: 30px;
-	display: inline-block;
-	position: absolute;
-	left: 144px;
-	top: 23px;
-}
-#TONA{ /* style titulo TONA*/
-	color: #FFF;
-	font-family: Ebrima,sans-serif;
-	font-size: 3em;
-}
-#btn{ /* Padding btn producto y contacto*/
-    padding-left: 10px;
-}
-#txtbtn{ /*Style botones producto y contacto*/
-    color: #FFF;
-    font-size: 18px;
-    font-family: Ebrima,sans-serif;
-}
-.footer {
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-}
-#lookbook {
-    max-width: 100%;
-    width: 70%;
-    margin-left: 14%;
-    margin-right: 0 auto;
-    height: auto;
-    display: block;
-    border-bottom: 2px solid;
-    border-bottom-color: black;
-}
-#prox:hover{
-    opacity: 0.6;
-}
-#prox {
-    max-width: 100%;
-    margin-top: 50px;
-    height: auto;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-}
-/*p {
+#galeria { /*h1*/
+    font-size: 5em;
+    font-family: 'Lucida Handwriting';
+    color: black;
     text-align: center;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+    margin-bottom: 0px;
+    max-width: 100%;
+}
 
+.row {
+    max-width: 100%;
+    margin-right: 15%;
+    margin-left: 15%;
+    height: auto;
+    max-height: 100%;
+    padding-left: 5%;
+}
+.caption {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p {
+    margin-bottom: 0px;
+}
+#container {
+    margin-bottom: 100px;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
     

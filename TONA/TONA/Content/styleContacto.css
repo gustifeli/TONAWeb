@@ -1,83 +1,10 @@
-html {
-    height: 100%;
-    background-color: white;
-}
-
-body{
-    height: 100%;
-}
-#txtfooter { /*Texto footer sta...*/
-    color: white;
-}
-
-.navbar {
-    padding: 10px;
-}
-
-#nav { /* navbar superior*/
-    margin: 0%;
-    border-radius: 0px;
-    padding: 10px;
-}
-
-#navInf {
-    padding: 10px;
-}
-
-#img { /*img maniqui TONA*/
-    width: 14px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    left: 144px;
-    top: 23px;
-}
-
-#TONA { /* style titulo TONA*/
-    color: #FFF;
-    font-family: Ebrima,sans-serif;
-    font-size: 3em;
-}
-
-#btn { /* Padding btn producto y contacto*/
-    padding-left: 10px;
-}
-
-#txtbtn { /*Style botones producto y contacto*/
-    color: #FFF;
-    font-size: 18px;
-    font-family: Ebrima,sans-serif;
-}
-
-/*.footer {
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-}*/
-
-#form-col1 {
-   text-align:left;
-    width: 60%;
-    margin-left: 5%;
-    float: left;
-}
-
-#form-col2 {
-    float: left;
-    width: 40%;
-    text-align: left;
-    margin-left: 5%;
-    margin-right: auto;
-}
-
 textarea {
     width: 80%;
     margin-bottom: 20px;
-    float: left;
+    float: right;
     margin-left: auto;
     margin-right: auto;
 }
-
 
 #clear {
     margin-left: auto;
@@ -85,64 +12,33 @@ textarea {
     text-align: center;
 }
 
-input[type=text]:focus {
-    border: 3px solid #555;
-}
-
-input[type=text] {
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
-
-.button {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
 .boton { /*Style boton ENVIAR CONTACTO*/
     background-color: white;
     color: black;
     border: 2px solid #000;
     border-radius: 3px;
+    margin-bottom: 10px;
+    outline: none;
 }
 
-.boton:hover {
+.boton:hover { /*Style boton ENVIAR CONTACTO*/
         background-color: #000;
         color: white;
-    }
-
-.container{
-    height: 100%;
-    margin-bottom: 100px;
 }
 
-body{
-    overflow-y: auto;
-}
-
-#btnMenu {
-    position: absolute;
-    right: 9px;
-    padding: 9px;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a {
-    color: white;
-}
-
-#aMenu {
-    padding-top: 15px;
-    padding-left: 15px;
-}
-#msjContacto {
+#contacto {
     text-align: center;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: Ebrima,sans-serif;
+    font-size: 3em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#contacto:hover {
+    opacity: 0.6;  
+}
+
+.container {
+    margin-bottom: 100px;
+    padding-left: 15%;
 }

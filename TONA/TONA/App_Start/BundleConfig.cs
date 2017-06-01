@@ -26,7 +26,11 @@ namespace TONA
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/bootstrap.min.css",
-                      "~/Content/style.css"));
+                      "~/Content/stylegalery.css",
+                      "~/Content/style.css",
+                      "~/Content/styleinvierno.css",
+                      "~/Content/styleverano.css",
+                      "~/Content/styleContacto.css"));
         }
     }
 }
