@@ -18,7 +18,6 @@ namespace TONA.Controllers
         {
             return View();
         }
-
         public ActionResult Contact()
         {
             return View();
@@ -31,7 +30,6 @@ namespace TONA.Controllers
         {
             return View();
         }
-
         public ActionResult Galeriaverano()
         {
             return View();

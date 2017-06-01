@@ -159,8 +159,10 @@
     <Content Include="Content\styleAdmin.css" />
     <Content Include="Content\styleContacto.css" />
     <Content Include="Content\stylegalery.css" />
+    <Content Include="Content\styleinvierno.css" />
     <Content Include="Content\stylelogin.css" />
     <Content Include="Content\styleSendMail.css" />
+    <Content Include="Content\styleverano.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
