@@ -28,21 +28,9 @@ namespace TONA.Controllers
             return View();
         }
         public ActionResult Galeriainvierno()
-<<<<<<< HEAD
         {
             return View();
         }
-        public ActionResult Galeriaverano()
-        {
-            return View();
-        }
-        public ActionResult sendMail()
-=======
->>>>>>> refs/remotes/origin/gusti
-        {
-            return View();
-        }
-
         public ActionResult Galeriaverano()
         {
             return View();
