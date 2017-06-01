@@ -28,6 +28,7 @@ namespace TONA.Controllers
             return View();
         }
         public ActionResult Galeriainvierno()
+<<<<<<< HEAD
         {
             return View();
         }
@@ -36,10 +37,17 @@ namespace TONA.Controllers
             return View();
         }
         public ActionResult sendMail()
+=======
+>>>>>>> refs/remotes/origin/gusti
         {
-            ViewBag.confirmacionMsj = true;
             return View();
         }
+
+        public ActionResult Galeriaverano()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ViewResult Contact(MailModel mailModel)
         {
@@ -61,7 +69,7 @@ namespace TONA.Controllers
                 smtp.Port = 25;
                 smtp.UseDefaultCredentials = true;
                 smtp.Credentials = new System.Net.NetworkCredential
-                    ("gustifeli@hotmail.com", "peque34885949*13");
+                    ("gustifeli@hotmail.com", "contraseña");
                 smtp.EnableSsl = true;
                 smtp.Send(mail);
                 ViewBag.Message = "sent";
