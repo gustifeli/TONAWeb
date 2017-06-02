@@ -55,12 +55,15 @@
     right: 9px;
     padding: 9px;
 }
-a:hover{
-    text-decoration: none;   
-}
+
 .aTxtColor:hover {
     color: white;
+    text-decoration: none;
 }
+.aTxtColor {
+    color: white;
+}
+
 #aMenu {
     color: white;
     padding-top: 15px;

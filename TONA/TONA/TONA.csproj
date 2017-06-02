@@ -170,7 +170,6 @@
     <Content Include="Image\facebook.png" />
     <Content Include="Image\glyphicons-social-31-facebook.png" />
     <Content Include="Image\glyphicons-social-32-twitter.png" />
-    <Content Include="Image\lights.jpg" />
     <Content Include="Image\menu_Sandwich.png" />
     <Content Include="Image\ic_person_black_24dp_1x.png" />
     <Content Include="Image\ic_salir.png" />
@@ -178,11 +177,8 @@
     <Content Include="Image\ic_user.png" />
     <Content Include="Image\ic_user_min.png" />
     <Content Include="Image\Instagram.png" />
-    <Content Include="Image\lookbook_logo.png" />
     <Content Include="Image\maniqui.png" />
-    <Content Include="Image\nature.jpg" />
     <Content Include="Image\prox.jpg" />
-    <Content Include="Image\telas.png" />
     <Content Include="Image\tona.jpg" />
     <Content Include="Image\tona1.jpg" />
     <Content Include="Image\tona2.jpg" />
