@@ -1,18 +1,25 @@
+.btn-ttc {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: black;
+}
+.btn-ttc:hover {
+    color: white;
+    outline: none;
+}
+.btn-ttc:active {
+    color: white;
+}
+
 #imgMin {
     width: 200px;
     height: 136px;
 }
 #row {
-    padding-top: 20%;
+	margin: inherit;
+	padding-top: 10%;
 }
 #Prod {
     margin-top: 40px;
     font-family: 'Coco Gothic';
-}
-.btn-ttc {
-    color: white;
-    background-color: black;
-}
-.btn-ttc:hover {
-    color: white;
 }
