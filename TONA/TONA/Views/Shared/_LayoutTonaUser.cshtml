@@ -17,8 +17,8 @@
     <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" id="TONA" href="@Url.Action("Tona", "Home")">TONA
-                <a href="@Url.Action("Login","Admin")"><img id="img" src="~/Image/maniqui.png"></a></a>
+                <a class="navbar-brand" id="TONA" href="@Url.Action("Tona", "Home")">TONA</a>
+                <a href="@Url.Action("Login","Admin")"><img id="img" src="~/Image/maniqui.png"></a>
             </div>
             <div class="navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -47,9 +47,9 @@
         @RenderBody()
         <footer class="footer">
             <div>
-                <nav id="nav" class=" navbar-inverse">
+                <nav id="nav" class=" navbar-inverse navbar-fixed-bottom">
                     <div id="txtfooter">
-                        <p class="text-center credit">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>
+                        <p class="text-center credit txtbtn">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>                  
                     </div>
                 </nav>
             </div>

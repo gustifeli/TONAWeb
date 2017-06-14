@@ -6,7 +6,11 @@
     margin: auto;
     padding: 10px;
     background-color: black;
-    border-radius: 0px;
+    border-radius: inherit;
+}
+#jmb {
+    padding-top: inherit;
+    padding-bottom: inherit;
 }
 
 #img { /*img maniqui TONA*/
@@ -40,11 +44,6 @@
     height: 100%; background-color: white;
 }
 
-#jmb {
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
 .carousel-indicators {
     top: 85%;
 }
@@ -64,7 +63,6 @@
 }
 
 #aMenu {
-    color: white;
     padding-top: 15px;
     padding-left: 15px;
 }
