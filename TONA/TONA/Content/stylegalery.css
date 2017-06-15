@@ -3,7 +3,7 @@
     font-family: 'Lucida Handwriting';
     color: black;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: auto;
     max-width: 100%;
 }
 
@@ -20,7 +20,7 @@
     text-align: center;
 }
 p {
-    margin-bottom: 0px;
+    margin-bottom: auto;
 }
 #container {
     margin-bottom: 100px;
