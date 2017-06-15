@@ -1,25 +1,41 @@
-.btn-ttc {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: black;
-}
-.btn-ttc:hover {
-    color: white;
-    outline: none;
-}
-.btn-ttc:active {
-    color: white;
+#list1 {
+    margin-top: 20px;
+    font-family: 'Coco Gothic';
 }
 
 #imgMin {
-    width: 200px;
-    height: 136px;
+    width: 300px;
+    margin-left: 2%;
+    margin-top: 3%;
 }
+.btn1 {
+    background-color: coral;
+    border: none;
+    border-radius: 3px;
+    padding: 1%;
+    color: white;
+    margin-left: 2%;
+}
+
+.btn1:focus {
+    outline: none;
+}
+
+.btn2 {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 1%;
+}
+
+.btn2:focus {
+        outline: none;
+    }
 #row {
-	margin: inherit;
-	padding-top: 10%;
+    padding-left: 2%;
 }
-#Prod {
-    margin-top: 40px;
-    font-family: 'Coco Gothic';
+
+#list2 {
+    margin-bottom: 20%;
 }

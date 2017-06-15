@@ -14,50 +14,44 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav id="nav" class="navbar navbar-inverse navbar-fixed-top">
+    <div id="nav" class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
+                <a id="btnMenu" class="navbar-collapse pull-right" data-toggle="collapse" href="#collapse1"><img src="~/Image/menu_Sandwich.png"></a>
                 <a class="navbar-brand" id="TONA" href="@Url.Action("Tona", "Home")">TONA</a>
                 <a href="@Url.Action("Login","Admin")"><img id="img" src="~/Image/maniqui.png"></a>
             </div>
-            <div class="navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    
-                    <li>
-                        <a id="txt" href="#"><img src="~/Image/ic_user.png">Usuario</a>
-                    </li>
-                    <li>
-                        <a id="txt" href="#"><img src="~/Image/ic_salir.png">Salir</a>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <img src="~/Image/menu_Sandwich.png">
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="@Url.Action("Galeria", "Home")">Galeria</a></li>
-                            <li><a href="@Url.Action("Contact","Home")">Contacto</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div id="collapse1" class="txtbtn panel-collapse collapse pull-right">
+                <div id="aMenu">
+                    <a class="aTxtColor" href="@Url.Action("Galeria", "Home")">Galeria</a>
+                </div>
+                <div id="aMenu">
+                    <a class="aTxtColor" href="@Url.Action("Contact","Home")">Contacto</a>
+                </div>
+                <div id="aMenu">
+                    <a class="aTxtColor" href="#"><img src="~/Image/ic_user.png">Usuario</a>
+                </div>
+                <div id="aMenu">
+                    <a class="aTxtColor" href="#"><img src="~/Image/ic_salir.png">Salir</a>
+                </div>
             </div>
         </div>
-    </nav>
-    <div>
-        @RenderBody()
-        <footer class="footer">
-            <div>
-                <nav id="nav" class=" navbar-inverse navbar-fixed-bottom">
-                    <div id="txtfooter">
-                        <p class="text-center credit txtbtn">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>                  
-                    </div>
-                </nav>
-            </div>
-        </footer>
-    </div>
+        </div>
+        <div>
+            @RenderBody()
+            <footer class="footer">
+                <div>
+                    <nav id="nav" class=" navbar-inverse navbar-fixed-bottom">
+                        <div id="txtfooter">
+                            <p class="text-center credit txtbtn">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>
+                        </div>
+                    </nav>
+                </div>
+            </footer>
+        </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
 </body>
 </html>
