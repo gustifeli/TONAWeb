@@ -4,7 +4,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type=text/css href="~/Content/styleAddProducto.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/Content/bootstrap.min.css">
     <link type="text/css" href="~/Content/bootstrap.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -18,8 +17,15 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <a id="btnMenu" class="navbar-collapse pull-right" data-toggle="collapse" href="#collapse1"><img src="~/Image/menu_Sandwich.png"></a>
-                <a class="navbar-brand" id="TONA" href="@Url.Action("Tona", "Home")">TONA</a>
+                <a class="navbar-brand" id="TONA" href="@Url.Action("Tona", "Home")">
+                    TONA
+                </a>
                 <a href="@Url.Action("Login","Admin")"><img id="img" src="~/Image/maniqui.png"></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <div class="pull-right">
+                    @*<a id="btnMenu"  href="#collapse1"><img src="~/Image/menu_Sandwich.png"></a>*@
+                </div>
             </div>
             <div id="collapse1" class="txtbtn panel-collapse collapse pull-right">
                 <div id="aMenu">
@@ -28,30 +34,30 @@
                 <div id="aMenu">
                     <a class="aTxtColor" href="@Url.Action("Contact","Home")">Contacto</a>
                 </div>
-                <div id="aMenu">
+                <div id="aMenu1">
                     <a class="aTxtColor" href="#"><img src="~/Image/ic_user.png">Usuario</a>
                 </div>
-                <div id="aMenu">
+                <div id="aMenu1">
                     <a class="aTxtColor" href="#"><img src="~/Image/ic_salir.png">Salir</a>
                 </div>
             </div>
         </div>
-        </div>
-        <div>
-            @RenderBody()
-            <footer class="footer">
-                <div>
-                    <nav id="nav" class=" navbar-inverse navbar-fixed-bottom">
-                        <div id="txtfooter">
-                            <p class="text-center credit txtbtn">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>
-                        </div>
-                    </nav>
-                </div>
-            </footer>
-        </div>
+    </div>
+    <div>
+        @RenderBody()
+        <footer class="footer">
+            <div>
+                <nav id="nav" class=" navbar-inverse navbar-fixed-bottom">
+                    <div id="txtfooter">
+                        <p class="text-center credit txtbtn">&copy; @DateTime.Now.Year -TONA - Santa Eufemia, Cordoba, Argentina</p>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </div>
 
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
 </body>
 </html>
