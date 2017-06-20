@@ -1,49 +1,46 @@
-html {
-    height: 100%;
-  background-color: black;
+#productos {
+    font-family: 'Coco Gothic';
+    width: 50%;
+    margin-right: inherit;
+}
+#imgmin{
+    width: 200px;
+    height: 130px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 1%;
+    position: relative;
+}
+.row {
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 3%;
+    margin-bottom: 1%;
 }
 
-#txtfooter{/*Texto footer sta...*/
-    color: white;      
-}
-.navbar{ 
-    padding: 10px;
-}
-#nav{/* navbar superior*/
-    margin: 0%;
-	border-radius: 0px;
-	padding: 10px;
-}
-#navInf{
-	padding: 10px;
-}
-#img { /*img maniqui TONA*/
-	width: 14px;
-	height: 30px;
-	display: inline-block;
-	position: absolute;
-	left: 144px;
-	top: 23px;
-}
-#TONA{ /* style titulo TONA*/
-	color: #FFF;
-	font-family: Ebrima,sans-serif;
-	font-size: 3em;
-}
-#btn{ /* Padding btn producto y contacto*/
-    padding-left: 10px;
-}
-#txtbtn{ /*Style botones producto y contacto*/
-    color: #FFF;
-    font-size: 18px;
-    font-family: Ebrima,sans-serif;
-}
-#imgMin{
-    width:200px;
-    height: 136px;
-}
-#txt{
-	color: white;
+#tab1 {
+    width: 60%;
 }
 
-
+#tab2 {
+    width: 35%;
+}
+.table-hover {
+    width: 90%;
+    max-width: 100%;
+}
+#descripcion{
+    width: 65%;
+    float: left;
+    margin-right: 2%;
+}
+.btn-default {
+    margin-left: 57%;
+    margin-bottom: 0.5%;
+    background-color: black;
+    color:white;
+}
+.btn-default:hover {
+    background-color: white;
+    color: black;
+}

@@ -30,6 +30,7 @@ namespace TONA
                       "~/Content/style.css",
                       "~/Content/styleinvierno.css",
                       "~/Content/styleverano.css",
+                      "~/Content/styleAdmin.css",
                       "~/Content/styleContacto.css",
                       "~/Content/styleAddProducto.css"));
         }

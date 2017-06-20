@@ -13,11 +13,11 @@ namespace TONA.Controllers
         {
             return View();
         }
-        public ActionResult AddProduct()
+        public ActionResult Admin()
         {
             return View();
         }
-        public ActionResult Admin()
+        public ActionResult AddProduct()
         {
             return View();
         }
